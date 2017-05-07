@@ -1,6 +1,5 @@
 #pragma once
 
-template<typename T, >
 void InsertSort(int* a, int n)
 {
 	assert(a);
