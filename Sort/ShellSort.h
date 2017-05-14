@@ -3,9 +3,10 @@
 void ShellSort(int* a, int n)
 {
 	assert(a);
-	int gap = n / 2 + 1;
+	int gap = n;
 	while (gap > 1)
 	{
+		gap = gap / 3 + 1;
 		for (size_t i = 0; i < n - gap; ++i)
 		{
 			int end = i;
@@ -24,7 +25,7 @@ void ShellSort(int* a, int n)
 			}
 			a[end + gap] = tmp;
 		}
-		gap = gap / 2 + 1;
+
 	}
 	
 }

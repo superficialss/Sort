@@ -5,6 +5,7 @@ using namespace std;
 
 #include"InsertSort.h"
 #include"ShellSort.h"
+#include"SelectSort.h"
 
 int main()
 {
