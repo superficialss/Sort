@@ -4,9 +4,11 @@
 using namespace std;
 
 #include"InsertSort.h"
+#include"ShellSort.h"
 
 int main()
 {
-	TestInsertSort();
+	//TestInsertSort();
+	TestShellSort();
 	return 0;
 }
