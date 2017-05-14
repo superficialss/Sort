@@ -2,6 +2,7 @@
 
 void SelectSort(int* a, size_t n)
 {
+	assert(a);
 	int left = 0;
 	int right = n - 1;
 	while (left < right)
