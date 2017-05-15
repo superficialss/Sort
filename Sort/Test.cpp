@@ -7,13 +7,15 @@ using namespace std;
 #include"ShellSort.h"
 #include"SelectSort.h"
 #include"HeapSort.h"
+#include"BubbleSort.h"
 
 int main()
 {
 	//TestInsertSort();
 	//TestShellSort();
 	//TestSelectSort();
-	TestHeapSort();
+	//TestHeapSort();
+	TestBubbleSort();
 
 	return 0;
 }
