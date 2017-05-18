@@ -8,6 +8,7 @@ using namespace std;
 #include"SelectSort.h"
 #include"HeapSort.h"
 #include"BubbleSort.h"
+#include"QuitSort.h"
 
 int main()
 {
@@ -15,7 +16,9 @@ int main()
 	//TestShellSort();
 	//TestSelectSort();
 	//TestHeapSort();
-	TestBubbleSort();
+	//TestBubbleSort();
+	TestQuitSort();
+
 
 	return 0;
 }
