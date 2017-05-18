@@ -1,7 +1,44 @@
 #pragma once
 
-int PartSort1(int* a, int left, int right)
+int GetMidIndex(int* a, int left, int right)
 {
+	int mid = left + (right - left) >> 1;
+	if (a[left] > a[mid])
+	{
+		if (a[mid] > a[right])
+		{
+			return mid;
+		}
+		else if(a[left] < a[right])
+		{
+			return left;
+		}
+		else
+		{
+			return right;
+		}
+	}
+	else      //a[left] < a[mid]
+	{
+		if (a[mid] < a[right])
+		{
+			return mid;
+		}
+		else if (a[left] > a[mid])
+		{
+			return left;
+		}
+		else
+		{
+			return right;
+		}
+	}
+}
+
+int PartSort1(int* a, int left, int right)  //×óÓÒÖ¸Õë·¨
+{
+	int mid = GetMidIndex(a, left, right);
+	swap(a[mid], a[right]);
 	int key = a[right];
 	int begin = left;
 	int end = right;
