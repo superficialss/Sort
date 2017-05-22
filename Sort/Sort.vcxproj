@@ -150,9 +150,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BubbleSort.h" />
+    <ClInclude Include="CountSort.h" />
     <ClInclude Include="HeapSort.h" />
     <ClInclude Include="InsertSort.h" />
+    <ClInclude Include="MergeSort.h" />
     <ClInclude Include="QuitSort.h" />
+    <ClInclude Include="RadixSort.h" />
     <ClInclude Include="SelectSort.h" />
     <ClInclude Include="ShellSort.h" />
   </ItemGroup>

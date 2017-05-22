@@ -10,6 +10,9 @@ using namespace std;
 #include"HeapSort.h"
 #include"BubbleSort.h"
 #include"QuitSort.h"
+#include"MergeSort.h"
+#include"CountSort.h"
+#include"RadixSort.h"
 
 int main()
 {
@@ -18,7 +21,9 @@ int main()
 	//TestSelectSort();
 	//TestHeapSort();
 	//TestBubbleSort();
-	TestQuitSort();
+	//TestQuitSort();
+	//TestMergeSort();
+	//TestCountSort();
 
 
 	return 0;
