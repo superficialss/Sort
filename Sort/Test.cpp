@@ -24,7 +24,7 @@ int main()
 	//TestQuitSort();
 	//TestMergeSort();
 	//TestCountSort();
-
+	TestLSD();
 
 	return 0;
 }
